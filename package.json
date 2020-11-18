@@ -1,0 +1,24 @@
+{
+  "name": "nodekb",
+  "version": "1.0.0",
+  "description": "simple knowledgebase app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Dan Tan",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-messages": "^1.0.1",
+    "express-session": "^1.17.1",
+    "jquery": "^3.5.1",
+    "mongoose": "^5.10.14",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "pug": "^3.0.0"
+  }
+}
